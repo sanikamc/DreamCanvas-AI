@@ -1,0 +1,28 @@
+
+# Environment variables and secret tokens
+.env
+.env.*
+!.env.example
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+
+# Generated database
+*.db
+*.sqlite3
+
+# IDE settings
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Test cache
+.pytest_cache/

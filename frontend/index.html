@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DreamCanvas AI | Text to Image Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="logo">✦ DreamCanvas AI</div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#generator">Create</a>
+            <a href="#history">History</a>
+        </nav>
+    </header>
+
+    <main id="home">
+
+        <section class="hero">
+            <p class="tagline">✨ YOUR IMAGINATION, VISUALIZED</p>
+            <h1>Turn Your Words Into <span>Art.</span></h1>
+            <p class="subtitle">
+                Describe your imagination and let artificial intelligence
+                transform it into beautiful images.
+            </p>
+        </section>
+
+        <section class="generator" id="generator">
+
+            <h2>Create Your Image</h2>
+            <p>Describe the image you want to generate.</p>
+
+            <textarea
+                id="prompt"
+                placeholder="Example: A magical castle floating above the clouds at sunset..."
+                maxlength="1000"
+            ></textarea>
+
+            <div class="prompt-footer">
+                <span id="charCount">0 / 1000</span>
+                <button id="generateBtn">✦ Generate Image</button>
+            </div>
+
+            <p id="status"></p>
+
+            <div class="result" id="result">
+                <div class="placeholder">
+                    <span>✧</span>
+                    <h3>Your artwork will appear here</h3>
+                    <p>Enter a prompt above to bring your imagination to life.</p>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="history" id="history">
+            <h2>Your Creations</h2>
+            <div id="historyGallery" class="gallery">
+                <p>Your generated images will appear here.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 DreamCanvas AI | Powered by Artificial Intelligence</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+

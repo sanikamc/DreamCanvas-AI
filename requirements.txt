@@ -1,0 +1,9 @@
+
+Flask
+Flask-Cors
+requests
+SQLAlchemy
+Pillow
+python-dotenv
+pytest
+huggingface_hub
